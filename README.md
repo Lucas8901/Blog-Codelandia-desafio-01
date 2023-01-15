@@ -1,8 +1,8 @@
-<h1 align="center">  Card Components Frontend Mentor</h1>
+<h1 align="center">Desafio 01 - Comunidade codelândia </h1>
 <br>
 
 <h2 align="left">Descrição do projeto:</h2> <br>
-<p align="left"> Um desafio de contruir um card da plataforma Frontend Mentor, desafio simples utilizando HTML e CSS </p>
+<p align="left"> Um desafio de contruir um Blog da Comunidade codelândia, desafio simples utilizando HTML e CSS </p>
 <br>
 
 <h2 align="left">Segue uma pequena demonstração do projeto em funcionamento</h2>
