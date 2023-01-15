@@ -8,7 +8,7 @@
 <h2 align="left">Segue uma pequena demonstração do projeto em funcionamento</h2>
 
   <div align="left">
-  <img src="https://github.com/Lucas8901/Desafio-Frontend-Mentor-Card-Components/blob/main/gif/bandicam%202023-01-14%2010-02-35-999.gif"/>
+  <img src="https://github.com/Lucas8901/Blog-Codelandia-desafio-01/blob/main/gif/bandicam%202023-01-15%2016-58-43-588.gif"/>
   </div>
 
 
