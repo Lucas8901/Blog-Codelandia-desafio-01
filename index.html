@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="style.css">
+  <title>Desafio #01 Codelandia</title>
+</head>
+<body>
+  
+<main class="main">
+    <div class="container">
+      <header>
+          <div class="topo">
+              <a href="#">Codelândia</a>
+              <p>blog</p>
+          </div>
+          <div class="form">
+            <i class="fas fa-search"></i>
+            <input type="text"  id="search"  placeholder="Pesquisar no blog">
+          </div>
+      </header>
+    </div>
+
+    <div class="container-post">
+
+      <div class="content">
+        <div class="data">
+            <p>02 de jan, 2023</p>
+            <i onclick="Toggle()" class="fas fa-heart" id="btn"></i>
+        </div>
+  
+        <div class="post">
+          <h2>Agora é oficial: o Windows 11 está vindo</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
+        </div>
+      </div>
+
+      <div class="content" data-aos="fade-up">
+        <div class="data">
+          <p>02 de jan, 2023</p>
+          <i onclick="Toggle1()" class="fas fa-heart" id="btn1"></i>
+        </div>
+  
+        <div class="post">
+          <h2>Tim Berners-Lee vai leiloar código-fonte da web</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit lectus libero, id efficitur arcu viverra ac. Etiam sed sagittis velit, vitae convallis turpis. Praesent in purus non tellus tincidunt fermentum eu at sem. Curabitur lacus libero.</p>
+        </div>
+      </div>
+
+      <div class="content" data-aos="fade-up">
+        <div class="data">
+          <p>02 de jan, 2023</p>
+          <i onclick="Toggle2()" class="fas fa-heart" id="btn2"></i>
+        </div>
+  
+        <div class="post">
+          <h2>Tem Firefox novo no pedaço e você vai
+            querer migrar</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est
+            adipiscing elit. Vestibulum vestibulum auctor est..</p>
+        </div>
+      </div>
+
+      <div class="content"  data-aos="fade-up">
+        <div class="data">
+          <p>02 de jan, 2023</p>
+          <i onclick="Toggle3()" class="fas fa-heart" id="btn3"></i>
+        </div>
+  
+        <div class="post">
+          <h2>John MCAfee, criador do antivírus McAfee, morre</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit lectus libero, id efficitur arcu viverra ac. Etiam sed sagittis velit, vitae convallis turpis. Praesent in purus non tellus tincidunt fermentum eu at sem. Curabitur lacus libero.</p>
+        </div>
+      </div>
+
+    </div>
+
+      
+</main>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+      duration:1000,
+    });
+  </script>
+
+  <script src="app.js">
+
+  </script>
+
+</body>
+</html>

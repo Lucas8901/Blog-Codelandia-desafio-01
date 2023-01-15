@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.main{
+  width: 100%;
+  height: 100%;
+  background:rgb(241, 241, 241);
+}
+
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+  background: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+  height: auto;
+  margin-bottom: 30px;
+}
+
+header{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header .topo{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 41px;
+  margin-bottom: 120px;
+}
+
+header .topo a{
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: right;
+  color: #FFFFFF;
+  
+}
+
+header .topo p{
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #FFFFFF;
+}
+
+header .form input{
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  outline: none;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  text-align: center ;
+}
+
+header .form{
+  padding-bottom: 41px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+header .form i{
+  position: absolute;
+  margin-left: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+#search::placeholder{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  padding-left: 0.8rem;
+  position: relative;
+}
+
+.container-post{
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+.content{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  margin-top:30px;
+}
+
+.content .data{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.content .data p{
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #717171;
+
+}
+
+.content .data i{
+  color: grey;
+  cursor: pointer;
+}
+
+
+
+.content .post h2{
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  margin-bottom: 8px;
+  color: #1A202C;
+}
+.content .post p{
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #717171;
+}
+
+@media(max-width:420px){
+  header .topo a{
+    font-size: 18px;
+  }
+  
+  header .topo p{
+    font-size: 18px;
+  }
+
+  #search::placeholder{
+    font-size: 14px;
+  }
+
+  .content .data p{
+    font-size: 14px;
+  }
+
+  .content .post h2{
+    font-size: 18px;
+  }
+
+  .content .post p{
+    font-size: 14px;
+  }
+}
+
